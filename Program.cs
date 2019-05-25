@@ -22,7 +22,7 @@ namespace vaultsharp_demo
             if (string.IsNullOrEmpty(vaultUrl))
                 throw new ArgumentNullException("vault-url not provided in the appsettings!");
 
-            var vaultToken = cfg.GetSection("vault-url").Value;
+            var vaultToken = cfg.GetSection("vault-token").Value;
 
             if (string.IsNullOrEmpty(vaultToken))
                 throw new ArgumentNullException("vault-token not provided in the appsettings!");
