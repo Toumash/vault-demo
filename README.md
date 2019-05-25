@@ -10,11 +10,11 @@ Firstly, run the docker vault container
 ./scripts/run-vault.sh
 ```
 
-Open up the browser to configure secrets in vault.  
+Open up the browser to configure secrets in vault.  The token is `myroot` - you can configure it in the `run-vault.sh` script
 
 ![login to vault](./docs/vault-login-in.png)
 
-Create Key Value (KV) Secret Engine.
+Create a Key Value (KV) Secret Engine by clicking `enable new engine`
 
 Create sample secret  
 
