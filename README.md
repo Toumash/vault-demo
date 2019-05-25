@@ -10,12 +10,14 @@ Firstly, run the docker vault container
 ./scripts/run-vault.sh
 ```
 
-Open up the browser to configure secrets in vault.
+Open up the browser to configure secrets in vault.  
+
 ![login to vault](./docs/vault-login-in.png)
 
 Create Key Value (KV) Secret Engine.
 
-Create sample secret 
+Create sample secret  
+
 ![create sample secret](./docs/vault-create-secret.png)
 
 Next, ensure that configuration in `appsettings.json` matches your docker container deployment (maily the ip address)
